@@ -8,3 +8,12 @@ git config user.email pierpaolo.savina@gmail.com
 # Questo vi permette di non configurarlo ogni volta!!!!!
 git config --global ...
 
+#per fare un commit dei cambiamenti:
+git commit 
+git commit -m 'messaggio del commit'
+
+# per aggiungere il repository remoto
+git remote add origin git@github.com:psavina/esercizi_root_202603.git
+
+#per il primo push (su github)
+git push --set-upstream origin master
