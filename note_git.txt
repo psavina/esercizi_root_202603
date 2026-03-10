@@ -1,0 +1,10 @@
+# per inizializzare un repository locale
+git init
+
+#per configurarlo
+git config user.name psavina
+git config user.email pierpaolo.savina@gmail.com
+
+# Questo vi permette di non configurarlo ogni volta!!!!!
+git config --global ...
+
